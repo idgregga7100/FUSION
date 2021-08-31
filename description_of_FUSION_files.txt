@@ -1,0 +1,23 @@
+directory structure needed to run Fusion:
+fusion_twas-master CONTAINS
+- FUSION.assoc_test.R
+- run_FUSION.sh (my bash script)
+- LDREF (directory)
+- WEIGHTS (directory)
+- plink2R-master (asked to download this while installing FUSION or is downloaded with installation)
+- utils (directory)
+
+LDREF CONTAINS: .bed .bim and .fam files
+
+WEIGHTS CONTAINS:
+- .pos file to find weight files within this directory
+- directory of .RDat weight files
+- need both of these to run software
+
+.RDat weight files (when you load one) CONTAIN:
+- cv.performance matrix
+- snps data.frame
+- wgt.matrix matrix
+- hsq numeric value
+- hsq.pv numeric value
+- N.tot integer value
