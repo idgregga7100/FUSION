@@ -1,5 +1,5 @@
 #!/bin/bash
-#pull lines with specific genes of interest
+#pull lines with specific genes of interest from Manhattan script output file of the total combined results
 
 for gene in KDELC2 GSTM1 RSPO3 PLG ARL3 MMP10 ABO
 do
